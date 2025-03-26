@@ -34,13 +34,13 @@ Update the background color of the play/pause control button.
 ##### Timeline Frame Colors:
 
 Easily modify the colors of the timeline view frames using:
+this methods you can access by rangeseekbar view and apply your color
 
-binding.rangeSeekBarView.setTopFrameColor(FRAME_BLUE_COLOR)
-binding.rangeSeekBarView.setBelowFrameColor(FRAME_YELLOW_COLOR)
-
+setTopFrameColor(FRAME_BLUE_COLOR)
+setBelowFrameColor(FRAME_YELLOW_COLOR)
 
 Reference Video
-![reference_video.mp4](video%2Freference_video.mp4)
+![reference_video.gif](video%2Freference_video.gif)
 
 # Customization Table
 
