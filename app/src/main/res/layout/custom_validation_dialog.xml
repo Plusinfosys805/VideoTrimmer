@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/custom_rounded_bg">
+
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_12sdp"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:text="Trimmer"
+        android:textAlignment="center"
+        android:includeFontPadding="false"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_16ssp" />
+
+    <TextView
+        android:id="@+id/txtValidationMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtTitle"
+        android:layout_marginStart="@dimen/_15sdp"
+        android:layout_marginEnd="@dimen/_15sdp"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_13ssp" />
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="match_parent"
+        android:layout_height="0.01dp"
+        android:background="@color/gray_border"
+        android:layout_below="@id/txtValidationMessage"
+        android:layout_marginTop="@dimen/_10sdp" />
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/buttonView"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_46sdp"
+        android:layout_below="@id/view1"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            android:id="@+id/txtCancel"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:includeFontPadding="false"
+            android:text="cancel"
+            android:gravity="center_vertical|center_horizontal"
+            android:textColor="@color/sky_blue"
+            android:textSize="@dimen/_14ssp"
+            tools:visibility="visible"
+            android:visibility="gone" />
+
+        <View
+            android:id="@+id/viewLine"
+            android:layout_width="0.05dp"
+            android:layout_height="wrap_content"
+            android:background="@color/gray_border"
+            android:visibility="gone"
+            tools:visibility="visible" />
+
+
+        <TextView
+            android:id="@+id/txtOk"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:includeFontPadding="false"
+            android:text="OK"
+            android:textStyle="bold"
+            android:gravity="center_vertical|center_horizontal"
+            android:textColor="@color/sky_blue"
+            android:textSize="@dimen/_15ssp" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</RelativeLayout>

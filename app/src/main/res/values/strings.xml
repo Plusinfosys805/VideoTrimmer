@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">VideoTrimmer</string>
+    <string name="_00_00">00:00</string>
+    <string name="short_seconds">sec</string>
+    <string name="save">save</string>
+    <string name="select_video">Select Video</string>
+    <string name="this_permission_is_necessary_for_saving_and_accessing_your_videos">This permission is necessary for saving and accessing your videos.</string>
+    <string name="no_suitable_app_was_found_for_selecting_videos">No suitable App was found for selecting videos</string>
+</resources>

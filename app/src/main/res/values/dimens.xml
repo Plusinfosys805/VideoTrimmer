@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="frames_video_height">40dip</dimen>
+    <dimen name="frames_height">50dp</dimen>
+
+</resources>
